@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TsetDemo_Example' do
+  pod 'TsetDemo', :path => '../'
+
+  target 'TsetDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
